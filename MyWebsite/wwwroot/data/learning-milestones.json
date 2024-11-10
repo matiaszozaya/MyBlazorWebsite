@@ -1,0 +1,116 @@
+﻿[
+  {
+    "date": "Present",
+    "itemContent": "Lawyer - Professional Degree",
+    "learnedContent": "In Progress - 95% finished",
+    "certificate": "#"
+  },
+  {
+    "date": "Present",
+    "itemContent": "Hardvard's CS50 Computer Science Course",
+    "learnedContent": "In Progress",
+    "certificate": "#"
+  },
+  {
+    "date": "Oct 2024",
+    "itemContent": "Blazor Course (blazor-university.com)",
+    "learnedContent": "C#, Blazor Server, Blazor WASM",
+    "certificate": "#"
+  },
+  {
+    "date": "Sep 2024",
+    "itemContent": "Blazor Server & Blazor WASM Course (freeCodeCamp)",
+    "learnedContent": "C#, Blazor Server, Blazor WASM",
+    "certificate": "#"
+  },
+  {
+    "date": "Feb 2024",
+    "itemContent": "API REST with JavaScript Course (Platzi Academy)",
+    "learnedContent": "JavaScript, XMLHttpRequest, FETCH, REST, AJAX",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/2985-api/diploma/detalle/"
+  },
+  {
+    "date": "Feb 2024",
+    "itemContent": "Asynchronism with JavaScript Course (Platzi Academy)",
+    "learnedContent": "JavaScript, XMLHttpRequest, FETCH, REST, AJAX",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3175-asincronismo-js/diploma/detalle/"
+  },
+  {
+    "date": "Feb 2024",
+    "itemContent": "WordPress Development and Deployment Environments Course (Platzi Academy)",
+    "learnedContent": "PHP, WordPress Development, WordPress Themes Development and Customization",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3086-csharp/diploma/detalle/"
+  },
+  {
+    "date": "Apr 2023",
+    "itemContent": "Programming with C# Course (Platzi Academy)",
+    "learnedContent": "C#, ASP.NET, .NET Framework, ASP.NET Core, ASP.NET MVC, .NET Core",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3086-csharp/diploma/detalle/"
+  },
+  {
+    "date": "Apr 2023",
+    "itemContent": ".NET Foundations Course (Platzi Academy)",
+    "learnedContent": "C#, ASP.NET, .NET Framework, ASP.NET Core, ASP.NET MVC, .NET Core",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/2883-fundamentos-net/diploma/detalle/"
+  },
+  {
+    "date": "Feb 2023",
+    "itemContent": "C# Course with .NET 3.1 (Platzi Academy)",
+    "learnedContent": "C#, ASP.NET, .NET Framework, ASP.NET Core, ASP.NET MVC, .NET Core",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/2198-csharp-introduccion/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "JavaScript Course (Platzi Academy)",
+    "learnedContent": "JavaScript, XMLHttpRequest, REST, AJAX",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/1814-basico-javascript/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "Practical Frontend Development Course (Platzi Academy)",
+    "learnedContent": "HTML, CSS, JavaScript, REST, AJAX",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/2477-frontend-developer-practico/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "Practical JavaScript Course (Platzi Academy)",
+    "learnedContent": "JavaScript, REST, AJAX",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3271-javascript-practico/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "Frontend Development Course (Platzi Academy)",
+    "learnedContent": "HTML, CSS, JavaScript, REST",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/2467-frontend-developer/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "Logical Thinking Course: Programming Languages (Platzi Academy)",
+    "learnedContent": "Software Development",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3223-pensamiento-logico-lenguajes/diploma/detalle/"
+  },
+  {
+    "date": "Nov 2022",
+    "itemContent": "Logical Thinking Course: Data Management, Structures and Functions (Platzi Academy)",
+    "learnedContent": "Software Development",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3222-pensamiento-logico-estructuras/diploma/detalle/"
+  },
+  {
+    "date": "Oct 2022",
+    "itemContent": "Logical Thinking Course: Algorithms and Flowcharts (Platzi Academy)",
+    "learnedContent": "Software Development",
+    "certificate": "https://platzi.com/p/matias.m.zozaya/curso/3221-pensamiento-logico/diploma/detalle/"
+  },
+  {
+    "date": "Aug 2021",
+    "itemContent": "Responsive Web Design Certification (freeCodeCamp)",
+    "learnedContent": "HTML, CSS, JavaScript",
+    "certificate": "https://www.freecodecamp.org/certification/matiaszozaya/responsive-web-design"
+  },
+  {
+    "date": "Dec 2008",
+    "itemContent": "Degree in Organizations and Business Management (High School)",
+    "learnedContent": "Human Resources, Finnancials, etc.",
+    "certificate": "#"
+  }
+]

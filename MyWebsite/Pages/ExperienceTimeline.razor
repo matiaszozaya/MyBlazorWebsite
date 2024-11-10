@@ -1,0 +1,138 @@
+﻿@page "/ExperienceTimeline"
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Experience Timeline - Matías Zozaya</PageTitle>
+
+<section class="p-5" style="height: 100%; overflow-y: scroll;">
+
+	<h1>Experience Timeline</h1>
+
+	<ul class="timeline">
+		<li>
+			<span class="font-weight-bold fs-5">Oct 2022 - Present</span>
+			<p class="text-muted font-weight-bold m-0 mb-2">WealthTechs Inc.</p>
+
+			<div>
+				<span class="badge badge-primary">Software Development</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">English (fluent)</span>
+				<span class="badge badge-primary">Spanish (native)</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">GIT</span>
+				<span class="badge badge-primary">Github</span>
+				<span class="badge badge-secondary">Subversion - SVN</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">Azure DevOps</span>
+				<span class="badge badge-primary">Amazon AWS</span>
+				<span class="badge badge-secondary">Agile Methodologies</span>
+				<span class="badge badge-secondary">Kanban</span>
+				<span class="badge badge-secondary">Scrum</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">HTML</span>
+				<span class="badge badge-primary">CSS</span>
+				<span class="badge badge-primary">JavaScript</span>
+				<span class="badge badge-secondary">jQuery</span>
+				<span class="badge badge-secondary">API - REST - OData</span>
+				<span class="badge badge-secondary">AJAX</span>
+				<span class="badge badge-secondary">Bootstrap</span>
+				<span class="badge badge-secondary">Material Design for Bootstrap v4 & v5</span>
+				<span class="badge badge-secondary">Responsive Web Design</span>
+				<span class="badge badge-secondary">UI/UX Design</span>
+				<span class="badge badge-secondary">Figma</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">C#</span>
+				<span class="badge badge-primary">.NET Framework</span>
+				<span class="badge badge-primary">SQL</span>
+				<span class="badge badge-secondary">Razor</span>
+				<span class="badge badge-secondary">Blazor</span>
+				<span class="badge badge-secondary">OOP</span>
+				<span class="badge badge-secondary">Dependency Injection</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">Wordpress</span>
+				<span class="badge badge-primary">Full Deployment</span>
+				<span class="badge badge-secondary">Plugins & Themes management</span>
+				<span class="badge badge-secondary">Theme Customization with PHP, CSS & JavaScript</span>
+			</div>
+
+			<div>
+				<span class="badge badge-primary">Technical Writing</span>
+				<span class="badge badge-primary">Software Documentation</span>
+			</div>
+		</li>
+
+		<li>
+			<span class="font-weight-bold fs-5">Jun 2020</span>
+			<p class="text-muted font-weight-bold m-0 mb-2">Klear Beats (Online Music Academy & eCommerce)</p>
+			<div>
+				<span class="badge badge-primary">Owner</span>
+				<span class="badge badge-primary">Teacher</span>
+				<span class="badge badge-secondary">Content Creating</span>
+				<span class="badge badge-secondary">Wordpress Development</span>
+				<span class="badge badge-secondary">Responsive Website Development</span>
+				<span class="badge badge-secondary">Sales Funnel Development</span>
+				<span class="badge badge-secondary">Social Media Management</span>
+				<span class="badge badge-secondary">Marketing Campaigns</span>
+				<span class="badge badge-success">+7k YouTube Subs</span>
+				<span class="badge badge-success">+200 Students</span>
+			</div>
+		</li>
+
+		<li>
+			<span class="font-weight-bold fs-5">Apr 2018</span>
+			<p class="text-muted font-weight-bold m-0 mb-2">Sonorizate (Audio Engineering Academy)</p>
+			<div>
+				<span class="badge badge-primary">Owner</span>
+				<span class="badge badge-primary">Teacher</span>
+				<span class="badge badge-secondary">Technical Content Writing</span>
+				<span class="badge badge-secondary">Social Media Management</span>
+				<span class="badge badge-secondary">Marketing Campaigns</span>
+				<span class="badge badge-success">+70 Students</span>
+			</div>
+		</li>
+
+		<li>
+			<span class="font-weight-bold fs-5">Apr 2017</span>
+			<p class="text-muted font-weight-bold m-0 mb-2">NEA Contenidos (Entertainment Events Company)</p>
+			<div>
+				<span class="badge badge-primary">Owner</span>
+				<span class="badge badge-primary">Events Full Coordination</span>
+				<span class="badge badge-secondary">Social Media Management</span>
+				<span class="badge badge-secondary">Marketing Campaigns</span>
+				<span class="badge badge-success">Celebrities Management</span>
+			</div>
+		</li>
+
+		<li>
+			<span class="font-weight-bold fs-5">Jan 2010</span>
+			<p class="text-muted font-weight-bold m-0 mb-2">Retail & Food Business</p>
+			<div>
+				<span class="badge badge-primary">Trainee Retail & Food Cashier</span>
+				<span class="badge badge-success">Promoted to Branch Manager</span>
+			</div>
+		</li>
+	</ul>
+
+</section>
+
+@code {
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			await JSRuntime.InvokeVoidAsync("setMainContentHeight");
+			await JSRuntime.InvokeVoidAsync("addResizeListener");
+		}
+	}
+}

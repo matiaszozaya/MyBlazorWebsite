@@ -1,0 +1,63 @@
+﻿@page "/LearningTimeline"
+@inject HttpClient HttpClient
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Learning Timeline - Matías Zozaya</PageTitle>
+
+<section class="p-5" style="height: 100%; overflow-y: scroll;">
+
+	<h1>Learning Timeline</h1>
+
+	@if (_learningMilestones.Length > 0)
+	{
+	
+			<ul class="timeline">
+			@foreach (var m in _learningMilestones)
+				{
+					<li>
+						<span class="font-weight-bold fs-5">@m.Date</span>
+						<p class="text-muted font-weight-bold m-0">@m.ItemContent</p>
+						@if (!String.IsNullOrEmpty(m.LearnedContent))
+						{
+							<p class="small text-muted m-0">@m.LearnedContent</p>
+						}
+						@if (!String.IsNullOrEmpty(m.Certificate))
+						{
+						<a href="@m.Certificate" target="@(m.Certificate == "#" ? "_self" : "_blank")" class="btn btn-sm btn-@(m.Certificate == "#" ? "light border" : "primary") my-3">@(m.Certificate == "#" ? "Certificate Unavailable" : "View Certificate")</a>
+						}
+					</li>
+				}
+			</ul>
+	
+	}
+
+</section>
+
+@code {
+	private LearningMilestone[]? _learningMilestones = [];
+
+	protected override async Task OnInitializedAsync()
+	{
+		_learningMilestones = await HttpClient.GetFromJsonAsync<LearningMilestone[]>("data/learning-milestones.json");
+	}
+
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			await JSRuntime.InvokeVoidAsync("setMainContentHeight");
+			await JSRuntime.InvokeVoidAsync("addResizeListener");
+		}
+	}
+
+	public class LearningMilestone
+	{
+		public string? Date { get; set; }
+
+		public string? ItemContent { get; set; }
+
+		public string? LearnedContent { get; set; }
+
+		public string? Certificate { get; set; }
+	}
+}
