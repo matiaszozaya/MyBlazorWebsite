@@ -1,17 +1,5 @@
 ﻿[
   {
-    "date": "Present",
-    "itemContent": "Lawyer Degree",
-    "learnedContent": "In Progress - 95% finished",
-    "certificate": "#"
-  },
-  {
-    "date": "Present",
-    "itemContent": "Hardvard's CS50 Computer Science Course",
-    "learnedContent": "In Progress",
-    "certificate": "#"
-  },
-  {
     "date": "Oct 2024",
     "itemContent": "Blazor Course (blazor-university.com)",
     "learnedContent": "C#, Blazor Server, Blazor WASM",
